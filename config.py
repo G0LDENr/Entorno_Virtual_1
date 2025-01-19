@@ -1,5 +1,5 @@
-from flask_sqlalchemy import SQLALchemy
+from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 
-db = SQLALchemy()
+db = SQLAlchemy()
 migrate = Migrate()
